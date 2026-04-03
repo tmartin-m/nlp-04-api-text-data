@@ -213,4 +213,4 @@ I started by updating the api url in the config file to https://jsonplaceholder.
 
 After the successful run I updated the stage03_transform file to add custom derived columns to calculate the title length, average title length by user id, and the minimum/maximum title lengths for each user id. I stopped to ensure a successful pipeline run after adding the average title length column before adding the minimum and maximum to aid in trouble shooting if errors occured. I ran into several syntax errors and some larger areas due to frogetting the alias at first but was able to produces a successful pipeline run with all 3 columns.
 
-From the results I was able to see that
+From the processed file I was able to see that Title length varied pretty drastically from user to user. The averages range from 26 characters to 52 characters. Title lengths also varied heavily within each's specific users set. Like User 6 titles ranges from 74 characters to 29 characters while user 7 ranges from 48 characters to 11 characters.
