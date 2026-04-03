@@ -198,3 +198,19 @@ so later steps can run without errors or unexpected results.
 In this project, validation is implemented directly,
 so all checks are visible, repeatable, and easy to review as part
 of the pipeline.
+
+## Phase 4. Make a Technical Modification
+
+I updated the stage03_transform file to add a derived column that calculated the ratio of the length of the length of the body to the length of the title. The update was successful after fixing a small syntax issue.
+
+The titles range in length from 12 characters to 79 characters, averaging around 40 characters. Wile the shortest body length is 102 characters and longest is 225 characters leaving an average of 102 characters. The smallest rates is about 1.72, while the largest is 17.17 and averaging around 4.81.
+
+There is very little correlation between the title length and body length, but there is a negative correlation between title length and the body to title ratio. With such a wide range in the ratio it might also be beneficial to flag some of the outliers on both ends of the spectrum.
+
+## Phase 5. Apply the Skills to a New Problem
+
+I started by updating the api url in the config file to https://jsonplaceholder.typicode.com/albums and updating the file names in the pipeline to reflect the new copies before test running the pipeline to ensure the raw data was produced successfully.
+
+After the successful run I updated the stage03_transform file to add custom derived columns to calculate the title length, average title length by user id, and the minimum/maximum title lengths for each user id. I stopped to ensure a successful pipeline run after adding the average title length column before adding the minimum and maximum to aid in trouble shooting if errors occured. I ran into several syntax errors and some larger areas due to frogetting the alias at first but was able to produces a successful pipeline run with all 3 columns.
+
+From the results I was able to see that

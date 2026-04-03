@@ -77,6 +77,23 @@ def run_transform(
     df = df.with_columns(
         [
             pl.col("title").str.len_chars().alias("title_length"),
+            pl.col("title")
+            .str.len_chars()
+            .min()
+            .over("user_id")
+            .alias("min_title_length_by_user"),
+            pl.col("title")
+            .str.len_chars()
+            .max()
+            .over("user_id")
+            .alias("max_title_length_by_uer"),
+            (
+                pl.col("title")
+                .str.len_chars()
+                .mean()
+                .over("user_id")
+                .alias("avg_title_length_by_user")
+            ),
         ]
     )
 

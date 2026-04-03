@@ -470,3 +470,214 @@ shape: (5, 4)
 2026-04-02 20:29:19 | INFO | CI | ========================
 2026-04-02 20:29:19 | INFO | CI | Pipeline executed successfully!
 2026-04-02 20:29:19 | INFO | CI | ========================
+2026-04-02 20:47:41 | INFO | CI | === RUN START ===
+2026-04-02 20:47:41 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-02 20:47:41 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-02 20:47:41 | INFO | CI | python=3.14.3
+2026-04-02 20:47:41 | INFO | CI | os=Windows 11
+2026-04-02 20:47:41 | INFO | CI | shell=powershell
+2026-04-02 20:47:41 | INFO | CI | cwd=.
+2026-04-02 20:47:41 | INFO | CI | github_actions=False
+2026-04-02 20:47:41 | INFO | CI | START PIPELINE
+2026-04-02 20:47:41 | INFO | CI | ROOT_PATH = .
+2026-04-02 20:47:41 | INFO | CI | DATA_PATH = data
+2026-04-02 20:47:41 | INFO | CI | RAW_PATH = data\raw
+2026-04-02 20:47:41 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-02 20:47:41 | INFO | CI | ========================
+2026-04-02 20:47:41 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-02 20:47:41 | INFO | CI | ========================
+2026-04-02 20:47:42 | INFO | CI | SOURCE PATH = https://jsonplaceholder.typicode.com/albums
+2026-04-02 20:47:42 | INFO | CI | SINK PATH = data\raw\tmartin_albums_raw.json
+2026-04-02 20:47:42 | INFO | CI | ========================
+2026-04-02 20:47:42 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-02 20:47:42 | INFO | CI | ========================
+2026-04-02 20:47:42 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-02 20:47:42 | INFO | CI | Top-level type: list
+2026-04-02 20:47:42 | INFO | CI | Keys in first record: ['userId', 'id', 'title']
+2026-04-02 20:47:42 | INFO | CI | Field types:
+2026-04-02 20:47:42 | INFO | CI | userId: int
+2026-04-02 20:47:42 | INFO | CI | id: int
+2026-04-02 20:47:42 | INFO | CI | title: str
+2026-04-02 20:47:42 | INFO | CI | Validation passed.
+2026-04-02 20:47:42 | INFO | CI | Sink: validated JSON object
+2026-04-02 20:47:42 | INFO | CI | ========================
+2026-04-02 20:47:42 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-02 20:47:42 | INFO | CI | ========================
+2026-04-02 20:47:42 | INFO | CI | Transformation complete.
+2026-04-02 20:47:42 | INFO | CI | DataFrame preview:
+shape: (5, 5)
+┌─────────┬─────────┬─────────────────────────────────┬──────────────┬──────────────────────────┐
+│ user_id ┆ post_id ┆ title                           ┆ title_length ┆ avg_title_length_by_user │
+│ ---     ┆ ---     ┆ ---                             ┆ ---          ┆ ---                      │
+│ i64     ┆ i64     ┆ str                             ┆ u32          ┆ f64                      │
+╞═════════╪═════════╪═════════════════════════════════╪══════════════╪══════════════════════════╡
+│ 1       ┆ 1       ┆ quidem molestiae enim           ┆ 21           ┆ 26.3                     │
+│ 1       ┆ 2       ┆ sunt qui excepturi placeat cul… ┆ 32           ┆ 26.3                     │
+│ 1       ┆ 3       ┆ omnis laborum odio              ┆ 18           ┆ 26.3                     │
+│ 1       ┆ 4       ┆ non esse culpa molestiae omnis… ┆ 40           ┆ 26.3                     │
+│ 1       ┆ 5       ┆ eaque aut omnis a               ┆ 17           ┆ 26.3                     │
+└─────────┴─────────┴─────────────────────────────────┴──────────────┴──────────────────────────┘
+2026-04-02 20:47:42 | INFO | CI | Sink: Polars DataFrame created
+2026-04-02 20:47:42 | INFO | CI | ========================
+2026-04-02 20:47:42 | INFO | CI | STAGE 04: LOAD starting...
+2026-04-02 20:47:42 | INFO | CI | ========================
+2026-04-02 20:47:42 | INFO | CI | SINK PATH = data\processed\tmartin_albums_processed.csv
+2026-04-02 20:47:42 | INFO | CI | ========================
+2026-04-02 20:47:42 | INFO | CI | Pipeline executed successfully!
+2026-04-02 20:47:42 | INFO | CI | ========================
+2026-04-02 20:52:12 | INFO | CI | === RUN START ===
+2026-04-02 20:52:12 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-02 20:52:12 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-02 20:52:12 | INFO | CI | python=3.14.3
+2026-04-02 20:52:12 | INFO | CI | os=Windows 11
+2026-04-02 20:52:12 | INFO | CI | shell=powershell
+2026-04-02 20:52:12 | INFO | CI | cwd=.
+2026-04-02 20:52:12 | INFO | CI | github_actions=False
+2026-04-02 20:52:12 | INFO | CI | START PIPELINE
+2026-04-02 20:52:12 | INFO | CI | ROOT_PATH = .
+2026-04-02 20:52:12 | INFO | CI | DATA_PATH = data
+2026-04-02 20:52:12 | INFO | CI | RAW_PATH = data\raw
+2026-04-02 20:52:12 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-02 20:52:12 | INFO | CI | ========================
+2026-04-02 20:52:12 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-02 20:52:12 | INFO | CI | ========================
+2026-04-02 20:52:13 | INFO | CI | SOURCE PATH = https://jsonplaceholder.typicode.com/albums
+2026-04-02 20:52:13 | INFO | CI | SINK PATH = data\raw\tmartin_albums_raw.json
+2026-04-02 20:52:13 | INFO | CI | ========================
+2026-04-02 20:52:13 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-02 20:52:13 | INFO | CI | ========================
+2026-04-02 20:52:13 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-02 20:52:13 | INFO | CI | Top-level type: list
+2026-04-02 20:52:13 | INFO | CI | Keys in first record: ['userId', 'id', 'title']
+2026-04-02 20:52:13 | INFO | CI | Field types:
+2026-04-02 20:52:13 | INFO | CI | userId: int
+2026-04-02 20:52:13 | INFO | CI | id: int
+2026-04-02 20:52:13 | INFO | CI | title: str
+2026-04-02 20:52:13 | INFO | CI | Validation passed.
+2026-04-02 20:52:13 | INFO | CI | Sink: validated JSON object
+2026-04-02 20:52:13 | INFO | CI | ========================
+2026-04-02 20:52:13 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-02 20:52:13 | INFO | CI | ========================
+2026-04-02 20:54:03 | INFO | CI | === RUN START ===
+2026-04-02 20:54:03 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-02 20:54:03 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-02 20:54:03 | INFO | CI | python=3.14.3
+2026-04-02 20:54:03 | INFO | CI | os=Windows 11
+2026-04-02 20:54:03 | INFO | CI | shell=powershell
+2026-04-02 20:54:03 | INFO | CI | cwd=.
+2026-04-02 20:54:03 | INFO | CI | github_actions=False
+2026-04-02 20:54:03 | INFO | CI | START PIPELINE
+2026-04-02 20:54:03 | INFO | CI | ROOT_PATH = .
+2026-04-02 20:54:03 | INFO | CI | DATA_PATH = data
+2026-04-02 20:54:03 | INFO | CI | RAW_PATH = data\raw
+2026-04-02 20:54:03 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-02 20:54:03 | INFO | CI | ========================
+2026-04-02 20:54:03 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-02 20:54:03 | INFO | CI | ========================
+2026-04-02 20:54:03 | INFO | CI | SOURCE PATH = https://jsonplaceholder.typicode.com/albums
+2026-04-02 20:54:03 | INFO | CI | SINK PATH = data\raw\tmartin_albums_raw.json
+2026-04-02 20:54:03 | INFO | CI | ========================
+2026-04-02 20:54:03 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-02 20:54:03 | INFO | CI | ========================
+2026-04-02 20:54:03 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-02 20:54:03 | INFO | CI | Top-level type: list
+2026-04-02 20:54:03 | INFO | CI | Keys in first record: ['userId', 'id', 'title']
+2026-04-02 20:54:03 | INFO | CI | Field types:
+2026-04-02 20:54:03 | INFO | CI | userId: int
+2026-04-02 20:54:03 | INFO | CI | id: int
+2026-04-02 20:54:03 | INFO | CI | title: str
+2026-04-02 20:54:03 | INFO | CI | Validation passed.
+2026-04-02 20:54:03 | INFO | CI | Sink: validated JSON object
+2026-04-02 20:54:03 | INFO | CI | ========================
+2026-04-02 20:54:03 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-02 20:54:03 | INFO | CI | ========================
+2026-04-02 20:54:37 | INFO | CI | === RUN START ===
+2026-04-02 20:54:37 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-02 20:54:37 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-02 20:54:37 | INFO | CI | python=3.14.3
+2026-04-02 20:54:37 | INFO | CI | os=Windows 11
+2026-04-02 20:54:37 | INFO | CI | shell=powershell
+2026-04-02 20:54:37 | INFO | CI | cwd=.
+2026-04-02 20:54:37 | INFO | CI | github_actions=False
+2026-04-02 20:54:37 | INFO | CI | START PIPELINE
+2026-04-02 20:54:37 | INFO | CI | ROOT_PATH = .
+2026-04-02 20:54:37 | INFO | CI | DATA_PATH = data
+2026-04-02 20:54:37 | INFO | CI | RAW_PATH = data\raw
+2026-04-02 20:54:37 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-02 20:54:37 | INFO | CI | ========================
+2026-04-02 20:54:37 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-02 20:54:37 | INFO | CI | ========================
+2026-04-02 20:54:37 | INFO | CI | SOURCE PATH = https://jsonplaceholder.typicode.com/albums
+2026-04-02 20:54:37 | INFO | CI | SINK PATH = data\raw\tmartin_albums_raw.json
+2026-04-02 20:54:37 | INFO | CI | ========================
+2026-04-02 20:54:37 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-02 20:54:37 | INFO | CI | ========================
+2026-04-02 20:54:37 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-02 20:54:37 | INFO | CI | Top-level type: list
+2026-04-02 20:54:37 | INFO | CI | Keys in first record: ['userId', 'id', 'title']
+2026-04-02 20:54:37 | INFO | CI | Field types:
+2026-04-02 20:54:37 | INFO | CI | userId: int
+2026-04-02 20:54:37 | INFO | CI | id: int
+2026-04-02 20:54:37 | INFO | CI | title: str
+2026-04-02 20:54:37 | INFO | CI | Validation passed.
+2026-04-02 20:54:37 | INFO | CI | Sink: validated JSON object
+2026-04-02 20:54:37 | INFO | CI | ========================
+2026-04-02 20:54:37 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-02 20:54:37 | INFO | CI | ========================
+2026-04-02 20:56:50 | INFO | CI | === RUN START ===
+2026-04-02 20:56:50 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-02 20:56:50 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-02 20:56:50 | INFO | CI | python=3.14.3
+2026-04-02 20:56:50 | INFO | CI | os=Windows 11
+2026-04-02 20:56:50 | INFO | CI | shell=powershell
+2026-04-02 20:56:50 | INFO | CI | cwd=.
+2026-04-02 20:56:50 | INFO | CI | github_actions=False
+2026-04-02 20:56:50 | INFO | CI | START PIPELINE
+2026-04-02 20:56:50 | INFO | CI | ROOT_PATH = .
+2026-04-02 20:56:50 | INFO | CI | DATA_PATH = data
+2026-04-02 20:56:50 | INFO | CI | RAW_PATH = data\raw
+2026-04-02 20:56:50 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-02 20:56:50 | INFO | CI | ========================
+2026-04-02 20:56:50 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-02 20:56:50 | INFO | CI | ========================
+2026-04-02 20:56:51 | INFO | CI | SOURCE PATH = https://jsonplaceholder.typicode.com/albums
+2026-04-02 20:56:51 | INFO | CI | SINK PATH = data\raw\tmartin_albums_raw.json
+2026-04-02 20:56:51 | INFO | CI | ========================
+2026-04-02 20:56:51 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-02 20:56:51 | INFO | CI | ========================
+2026-04-02 20:56:51 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-02 20:56:51 | INFO | CI | Top-level type: list
+2026-04-02 20:56:51 | INFO | CI | Keys in first record: ['userId', 'id', 'title']
+2026-04-02 20:56:51 | INFO | CI | Field types:
+2026-04-02 20:56:51 | INFO | CI | userId: int
+2026-04-02 20:56:51 | INFO | CI | id: int
+2026-04-02 20:56:51 | INFO | CI | title: str
+2026-04-02 20:56:51 | INFO | CI | Validation passed.
+2026-04-02 20:56:51 | INFO | CI | Sink: validated JSON object
+2026-04-02 20:56:51 | INFO | CI | ========================
+2026-04-02 20:56:51 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-02 20:56:51 | INFO | CI | ========================
+2026-04-02 20:56:51 | INFO | CI | Transformation complete.
+2026-04-02 20:56:51 | INFO | CI | DataFrame preview:
+shape: (5, 7)
+┌─────────┬─────────┬────────────────────────────┬──────────────┬──────────────────────────┬─────────────────────────┬──────────────────────────┐
+│ user_id ┆ post_id ┆ title                      ┆ title_length ┆ min_title_length_by_user ┆ max_title_length_by_uer ┆ avg_title_length_by_user │
+│ ---     ┆ ---     ┆ ---                        ┆ ---          ┆ ---                      ┆ ---                     ┆ ---                      │
+│ i64     ┆ i64     ┆ str                        ┆ u32          ┆ u32                      ┆ u32                     ┆ f64                      │
+╞═════════╪═════════╪════════════════════════════╪══════════════╪══════════════════════════╪═════════════════════════╪══════════════════════════╡
+│ 1       ┆ 1       ┆ quidem molestiae enim      ┆ 21           ┆ 17                       ┆ 40                      ┆ 26.3                     │
+│ 1       ┆ 2       ┆ sunt qui excepturi placeat ┆ 32           ┆ 17                       ┆ 40                      ┆ 26.3                     │
+│         ┆         ┆ cul…                       ┆              ┆                          ┆                         ┆                          │
+│ 1       ┆ 3       ┆ omnis laborum odio         ┆ 18           ┆ 17                       ┆ 40                      ┆ 26.3                     │
+│ 1       ┆ 4       ┆ non esse culpa molestiae   ┆ 40           ┆ 17                       ┆ 40                      ┆ 26.3                     │
+│         ┆         ┆ omnis…                     ┆              ┆                          ┆                         ┆                          │
+│ 1       ┆ 5       ┆ eaque aut omnis a          ┆ 17           ┆ 17                       ┆ 40                      ┆ 26.3                     │
+└─────────┴─────────┴────────────────────────────┴──────────────┴──────────────────────────┴─────────────────────────┴──────────────────────────┘
+2026-04-02 20:56:51 | INFO | CI | Sink: Polars DataFrame created
+2026-04-02 20:56:51 | INFO | CI | ========================
+2026-04-02 20:56:51 | INFO | CI | STAGE 04: LOAD starting...
+2026-04-02 20:56:51 | INFO | CI | ========================
+2026-04-02 20:56:51 | INFO | CI | SINK PATH = data\processed\tmartin_albums_processed.csv
+2026-04-02 20:56:51 | INFO | CI | ========================
+2026-04-02 20:56:51 | INFO | CI | Pipeline executed successfully!
+2026-04-02 20:56:51 | INFO | CI | ========================

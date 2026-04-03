@@ -1,101 +1,101 @@
-user_id,post_id,title,title_length
-1,1,quidem molestiae enim,21
-1,2,sunt qui excepturi placeat culpa,32
-1,3,omnis laborum odio,18
-1,4,non esse culpa molestiae omnis sed optio,40
-1,5,eaque aut omnis a,17
-1,6,natus impedit quibusdam illo est,32
-1,7,quibusdam autem aliquid et et quia,34
-1,8,qui fuga est a eum,18
-1,9,saepe unde necessitatibus rem,29
-1,10,distinctio laborum qui,22
-2,11,quam nostrum impedit mollitia quod et dolor,43
-2,12,consequatur autem doloribus natus consectetur,45
-2,13,ab rerum non rerum consequatur ut ea unde,41
-2,14,ducimus molestias eos animi atque nihil,39
-2,15,ut pariatur rerum ipsum natus repellendus praesentium,53
-2,16,voluptatem aut maxime inventore autem magnam atque repellat,59
-2,17,aut minima voluptatem ut velit,30
-2,18,nesciunt quia et doloremque,27
-2,19,velit pariatur quaerat similique libero omnis quia,50
-2,20,voluptas rerum iure ut enim,27
-3,21,repudiandae voluptatem optio est consequatur rem in temporibus et,65
-3,22,et rem non provident vel ut,27
-3,23,incidunt quisquam hic adipisci sequi,36
-3,24,dolores ut et facere placeat,28
-3,25,vero maxime id possimus sunt neque et consequatur,49
-3,26,quibusdam saepe ipsa vel harum,30
-3,27,id non nostrum expedita,23
-3,28,omnis neque exercitationem sed dolor atque maxime aut cum,57
-3,29,inventore ut quasi magnam itaque est fugit,42
-3,30,tempora assumenda et similique odit distinctio error,52
-4,31,adipisci laborum fuga laboriosam,32
-4,32,reiciendis dolores a ut qui debitis non quo labore,50
-4,33,iste eos nostrum,16
-4,34,cumque voluptatibus rerum architecto blanditiis,47
-4,35,et impedit nisi quae magni necessitatibus sed aut pariatur,58
-4,36,nihil cupiditate voluptate neque,32
-4,37,est placeat dicta ut nisi rerum iste,36
-4,38,unde a sequi id,15
-4,39,ratione porro illum labore eum aperiam sed,42
-4,40,voluptas neque et sint aut quo odit,35
-5,41,ea voluptates maiores eos accusantium officiis tempore mollitia consequatur,75
-5,42,tenetur explicabo ea,20
-5,43,aperiam doloremque nihil,24
-5,44,sapiente cum numquam officia consequatur vel natus quos suscipit,64
-5,45,tenetur quos ea unde est enim corrupti qui,42
-5,46,molestiae voluptate non,23
-5,47,temporibus molestiae aut,24
-5,48,modi consequatur culpa aut quam soluta alias perspiciatis laudantium,68
-5,49,ut aut vero repudiandae voluptas ullam voluptas at consequatur,62
-5,50,sed qui sed quas sit ducimus dolor,34
-6,51,odit laboriosam sint quia cupiditate animi quis,47
-6,52,necessitatibus quas et sunt at voluptatem,41
-6,53,est vel sequi voluptatem nemo quam molestiae modi enim,54
-6,54,aut non illo amet perferendis,29
-6,55,qui culpa itaque omnis in nesciunt architecto error,51
-6,56,omnis qui maiores tempora officiis omnis rerum sed repellat,59
-6,57,libero excepturi voluptatem est architecto quae voluptatum officia tempora,74
-6,58,nulla illo consequatur aspernatur veritatis aut error delectus et,65
-6,59,eligendi similique provident nihil,34
-6,60,omnis mollitia sunt aliquid eum consequatur fugit minus laudantium,66
-7,61,delectus iusto et,17
-7,62,eos ea non recusandae iste ut quasi,35
-7,63,velit est quam,14
-7,64,autem voluptatem amet iure quae,31
-7,65,voluptates delectus iure iste qui,33
-7,66,velit sed quia dolor dolores delectus,37
-7,67,ad voluptas nostrum et nihil,28
-7,68,qui quasi nihil aut voluptatum sit dolore minima,48
-7,69,qui aut est,11
-7,70,et deleniti unde,16
-8,71,et vel corporis,15
-8,72,unde exercitationem ut,22
-8,73,quos omnis officia,18
-8,74,quia est eius vitae dolor,25
-8,75,aut quia expedita non,21
-8,76,dolorem magnam facere itaque ut reprehenderit tenetur corrupti,62
-8,77,cupiditate sapiente maiores iusto ducimus cum excepturi veritatis quia,70
-8,78,est minima eius possimus ea ratione velit et,44
-8,79,ipsa quae voluptas natus ut suscipit soluta quia quidem,55
-8,80,id nihil reprehenderit,22
-9,81,quibusdam sapiente et,21
-9,82,recusandae consequatur vel amet unde,36
-9,83,aperiam odio fugiat,19
-9,84,est et at eos expedita,22
-9,85,qui voluptatem consequatur aut ab quis temporibus praesentium,61
-9,86,eligendi mollitia alias aspernatur vel ut iusto,47
-9,87,aut aut architecto,18
-9,88,quas perspiciatis optio,23
-9,89,sit optio id voluptatem est eum et,34
-9,90,est vel dignissimos,19
-10,91,repellendus praesentium debitis officiis,40
-10,92,incidunt et et eligendi assumenda soluta quia recusandae,56
-10,93,nisi qui dolores perspiciatis,29
-10,94,quisquam a dolores et earum vitae,33
-10,95,consectetur vel rerum qui aperiam modi eos aspernatur ipsa,58
-10,96,unde et ut molestiae est molestias voluptatem sint,50
-10,97,est quod aut,12
-10,98,omnis quia possimus nesciunt deleniti assumenda sed autem,57
-10,99,consectetur ut id impedit dolores sit ad ex aut,47
-10,100,enim repellat iste,18
+user_id,post_id,title,title_length,min_title_length_by_user,max_title_length_by_uer,avg_title_length_by_user
+1,1,quidem molestiae enim,21,17,40,26.3
+1,2,sunt qui excepturi placeat culpa,32,17,40,26.3
+1,3,omnis laborum odio,18,17,40,26.3
+1,4,non esse culpa molestiae omnis sed optio,40,17,40,26.3
+1,5,eaque aut omnis a,17,17,40,26.3
+1,6,natus impedit quibusdam illo est,32,17,40,26.3
+1,7,quibusdam autem aliquid et et quia,34,17,40,26.3
+1,8,qui fuga est a eum,18,17,40,26.3
+1,9,saepe unde necessitatibus rem,29,17,40,26.3
+1,10,distinctio laborum qui,22,17,40,26.3
+2,11,quam nostrum impedit mollitia quod et dolor,43,27,59,41.4
+2,12,consequatur autem doloribus natus consectetur,45,27,59,41.4
+2,13,ab rerum non rerum consequatur ut ea unde,41,27,59,41.4
+2,14,ducimus molestias eos animi atque nihil,39,27,59,41.4
+2,15,ut pariatur rerum ipsum natus repellendus praesentium,53,27,59,41.4
+2,16,voluptatem aut maxime inventore autem magnam atque repellat,59,27,59,41.4
+2,17,aut minima voluptatem ut velit,30,27,59,41.4
+2,18,nesciunt quia et doloremque,27,27,59,41.4
+2,19,velit pariatur quaerat similique libero omnis quia,50,27,59,41.4
+2,20,voluptas rerum iure ut enim,27,27,59,41.4
+3,21,repudiandae voluptatem optio est consequatur rem in temporibus et,65,23,65,40.9
+3,22,et rem non provident vel ut,27,23,65,40.9
+3,23,incidunt quisquam hic adipisci sequi,36,23,65,40.9
+3,24,dolores ut et facere placeat,28,23,65,40.9
+3,25,vero maxime id possimus sunt neque et consequatur,49,23,65,40.9
+3,26,quibusdam saepe ipsa vel harum,30,23,65,40.9
+3,27,id non nostrum expedita,23,23,65,40.9
+3,28,omnis neque exercitationem sed dolor atque maxime aut cum,57,23,65,40.9
+3,29,inventore ut quasi magnam itaque est fugit,42,23,65,40.9
+3,30,tempora assumenda et similique odit distinctio error,52,23,65,40.9
+4,31,adipisci laborum fuga laboriosam,32,15,58,36.3
+4,32,reiciendis dolores a ut qui debitis non quo labore,50,15,58,36.3
+4,33,iste eos nostrum,16,15,58,36.3
+4,34,cumque voluptatibus rerum architecto blanditiis,47,15,58,36.3
+4,35,et impedit nisi quae magni necessitatibus sed aut pariatur,58,15,58,36.3
+4,36,nihil cupiditate voluptate neque,32,15,58,36.3
+4,37,est placeat dicta ut nisi rerum iste,36,15,58,36.3
+4,38,unde a sequi id,15,15,58,36.3
+4,39,ratione porro illum labore eum aperiam sed,42,15,58,36.3
+4,40,voluptas neque et sint aut quo odit,35,15,58,36.3
+5,41,ea voluptates maiores eos accusantium officiis tempore mollitia consequatur,75,20,75,43.6
+5,42,tenetur explicabo ea,20,20,75,43.6
+5,43,aperiam doloremque nihil,24,20,75,43.6
+5,44,sapiente cum numquam officia consequatur vel natus quos suscipit,64,20,75,43.6
+5,45,tenetur quos ea unde est enim corrupti qui,42,20,75,43.6
+5,46,molestiae voluptate non,23,20,75,43.6
+5,47,temporibus molestiae aut,24,20,75,43.6
+5,48,modi consequatur culpa aut quam soluta alias perspiciatis laudantium,68,20,75,43.6
+5,49,ut aut vero repudiandae voluptas ullam voluptas at consequatur,62,20,75,43.6
+5,50,sed qui sed quas sit ducimus dolor,34,20,75,43.6
+6,51,odit laboriosam sint quia cupiditate animi quis,47,29,74,52.0
+6,52,necessitatibus quas et sunt at voluptatem,41,29,74,52.0
+6,53,est vel sequi voluptatem nemo quam molestiae modi enim,54,29,74,52.0
+6,54,aut non illo amet perferendis,29,29,74,52.0
+6,55,qui culpa itaque omnis in nesciunt architecto error,51,29,74,52.0
+6,56,omnis qui maiores tempora officiis omnis rerum sed repellat,59,29,74,52.0
+6,57,libero excepturi voluptatem est architecto quae voluptatum officia tempora,74,29,74,52.0
+6,58,nulla illo consequatur aspernatur veritatis aut error delectus et,65,29,74,52.0
+6,59,eligendi similique provident nihil,34,29,74,52.0
+6,60,omnis mollitia sunt aliquid eum consequatur fugit minus laudantium,66,29,74,52.0
+7,61,delectus iusto et,17,11,48,27.0
+7,62,eos ea non recusandae iste ut quasi,35,11,48,27.0
+7,63,velit est quam,14,11,48,27.0
+7,64,autem voluptatem amet iure quae,31,11,48,27.0
+7,65,voluptates delectus iure iste qui,33,11,48,27.0
+7,66,velit sed quia dolor dolores delectus,37,11,48,27.0
+7,67,ad voluptas nostrum et nihil,28,11,48,27.0
+7,68,qui quasi nihil aut voluptatum sit dolore minima,48,11,48,27.0
+7,69,qui aut est,11,11,48,27.0
+7,70,et deleniti unde,16,11,48,27.0
+8,71,et vel corporis,15,15,70,35.4
+8,72,unde exercitationem ut,22,15,70,35.4
+8,73,quos omnis officia,18,15,70,35.4
+8,74,quia est eius vitae dolor,25,15,70,35.4
+8,75,aut quia expedita non,21,15,70,35.4
+8,76,dolorem magnam facere itaque ut reprehenderit tenetur corrupti,62,15,70,35.4
+8,77,cupiditate sapiente maiores iusto ducimus cum excepturi veritatis quia,70,15,70,35.4
+8,78,est minima eius possimus ea ratione velit et,44,15,70,35.4
+8,79,ipsa quae voluptas natus ut suscipit soluta quia quidem,55,15,70,35.4
+8,80,id nihil reprehenderit,22,15,70,35.4
+9,81,quibusdam sapiente et,21,18,61,30.0
+9,82,recusandae consequatur vel amet unde,36,18,61,30.0
+9,83,aperiam odio fugiat,19,18,61,30.0
+9,84,est et at eos expedita,22,18,61,30.0
+9,85,qui voluptatem consequatur aut ab quis temporibus praesentium,61,18,61,30.0
+9,86,eligendi mollitia alias aspernatur vel ut iusto,47,18,61,30.0
+9,87,aut aut architecto,18,18,61,30.0
+9,88,quas perspiciatis optio,23,18,61,30.0
+9,89,sit optio id voluptatem est eum et,34,18,61,30.0
+9,90,est vel dignissimos,19,18,61,30.0
+10,91,repellendus praesentium debitis officiis,40,12,58,40.0
+10,92,incidunt et et eligendi assumenda soluta quia recusandae,56,12,58,40.0
+10,93,nisi qui dolores perspiciatis,29,12,58,40.0
+10,94,quisquam a dolores et earum vitae,33,12,58,40.0
+10,95,consectetur vel rerum qui aperiam modi eos aspernatur ipsa,58,12,58,40.0
+10,96,unde et ut molestiae est molestias voluptatem sint,50,12,58,40.0
+10,97,est quod aut,12,12,58,40.0
+10,98,omnis quia possimus nesciunt deleniti assumenda sed autem,57,12,58,40.0
+10,99,consectetur ut id impedit dolores sit ad ex aut,47,12,58,40.0
+10,100,enim repellat iste,18,12,58,40.0
